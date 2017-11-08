@@ -117,7 +117,7 @@ private extension ColorMatchTabsViewController {
         
         for index in 0..<dataSource.numberOfItems(inController: self) {
             let size = _view.circleMenuButton.bounds.size
-            let frame = CGRect(origin: .zero, size: CGSize(width: size.width / 2, height: size.height / 2))
+            let frame = CGRect(origin: .zero, size: CGSize(width: size.width , height: size.height ))
             let iconImageView = UIImageView(frame: frame)
             iconImageView.image = dataSource.tabsViewController(self, hightlightedIconAt: index)
             iconImageView.contentMode = .center

@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		2CE6BA5279F9022BA086BD4E /* Pods_nCombinatorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7C3D9E79AD1D731C4359DA6 /* Pods_nCombinatorUITests.framework */; };
 		8F0BDEE72C4F49C0EBF0A670 /* Pods_nCombinator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1DAFF6C528A38284FAD1EFF /* Pods_nCombinator.framework */; };
-		9F5908CB1FB2DF7A00BA6456 /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5908CA1FB2DF7A00BA6456 /* FeedItem.swift */; };
+		9F5908CB1FB2DF7A00BA6456 /* TabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5908CA1FB2DF7A00BA6456 /* TabItem.swift */; };
 		9F6F74351FB2D892009A539D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6F74341FB2D892009A539D /* AppDelegate.swift */; };
 		9F6F74371FB2D892009A539D /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6F74361FB2D892009A539D /* MainVC.swift */; };
 		9F6F743A1FB2D892009A539D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F6F74381FB2D892009A539D /* Main.storyboard */; };
@@ -55,7 +55,7 @@
 		1C2DFA6E826689EB012965F3 /* Pods-nCombinatorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nCombinatorUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-nCombinatorUITests/Pods-nCombinatorUITests.release.xcconfig"; sourceTree = "<group>"; };
 		4ED41FE4838176F9508D2DDB /* Pods-nCombinatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nCombinatorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-nCombinatorTests/Pods-nCombinatorTests.release.xcconfig"; sourceTree = "<group>"; };
 		719C03DC5BBD5AC94E1F154B /* Pods-nCombinator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nCombinator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-nCombinator/Pods-nCombinator.debug.xcconfig"; sourceTree = "<group>"; };
-		9F5908CA1FB2DF7A00BA6456 /* FeedItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
+		9F5908CA1FB2DF7A00BA6456 /* TabItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabItem.swift; sourceTree = "<group>"; };
 		9F6F74311FB2D892009A539D /* nCombinator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nCombinator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F6F74341FB2D892009A539D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F6F74361FB2D892009A539D /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
@@ -207,7 +207,7 @@
 				9F6F746E1FB2DC8E009A539D /* Reddit.swift */,
 				9F6F74701FB2DCA9009A539D /* HackerNews.swift */,
 				9F6F74721FB2DCE4009A539D /* ProductHunt.swift */,
-				9F5908CA1FB2DF7A00BA6456 /* FeedItem.swift */,
+				9F5908CA1FB2DF7A00BA6456 /* TabItem.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -557,7 +557,7 @@
 				9F8B327F1FB3063500B6B83C /* UIFont+Zeplin.swift in Sources */,
 				9F8B32851FB3080B00B6B83C /* StubContentViewController.swift in Sources */,
 				9F6F74731FB2DCE4009A539D /* ProductHunt.swift in Sources */,
-				9F5908CB1FB2DF7A00BA6456 /* FeedItem.swift in Sources */,
+				9F5908CB1FB2DF7A00BA6456 /* TabItem.swift in Sources */,
 				9F8B327A1FB3061900B6B83C /* ExampleTableViewCell.swift in Sources */,
 				9F6F746D1FB2DC4D009A539D /* SourceSelectionVC.swift in Sources */,
 				9F6F74711FB2DCA9009A539D /* HackerNews.swift in Sources */,
@@ -658,7 +658,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -703,7 +703,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";

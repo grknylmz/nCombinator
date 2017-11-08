@@ -7,7 +7,7 @@
 //
 import UIKit
 
-struct FeedItem {
+struct TabItem {
     
     let title: String
     let tintColor: UIColor
