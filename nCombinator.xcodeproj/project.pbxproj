@@ -163,11 +163,6 @@
 				9F6F74681FB2DAD6009A539D /* ViewControllers */,
 				9F6F74671FB2DAD1009A539D /* Views */,
 				9F6F74661FB2DA72009A539D /* Models */,
-				9F6F74341FB2D892009A539D /* AppDelegate.swift */,
-				9F6F743E1FB2D892009A539D /* Assets.xcassets */,
-				9F6F74401FB2D892009A539D /* LaunchScreen.storyboard */,
-				9F6F74431FB2D892009A539D /* Info.plist */,
-				9F6F743B1FB2D892009A539D /* nCombinator.xcdatamodeld */,
 			);
 			path = nCombinator;
 			sourceTree = "<group>";
@@ -204,6 +199,7 @@
 		9F6F74671FB2DAD1009A539D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9F6F74401FB2D892009A539D /* LaunchScreen.storyboard */,
 				9F6F74381FB2D892009A539D /* Main.storyboard */,
 			);
 			name = Views;
@@ -212,6 +208,7 @@
 		9F6F74681FB2DAD6009A539D /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				9F6F74341FB2D892009A539D /* AppDelegate.swift */,
 				9F6F74361FB2D892009A539D /* MainVC.swift */,
 				9F6F746C1FB2DC4D009A539D /* SourceSelectionVC.swift */,
 			);
@@ -235,6 +232,9 @@
 		9F6F746B1FB2DBF9009A539D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				9F6F74431FB2D892009A539D /* Info.plist */,
+				9F6F743E1FB2D892009A539D /* Assets.xcassets */,
+				9F6F743B1FB2D892009A539D /* nCombinator.xcdatamodeld */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
