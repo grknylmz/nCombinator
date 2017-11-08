@@ -124,6 +124,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		9F5908CC1FB2E0E600BA6456 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				9F6F74691FB2DADB009A539D /* Utils */,
+				9F6F746A1FB2DB00009A539D /* Services */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
 		9F6F74281FB2D892009A539D = {
 			isa = PBXGroup;
 			children = (
@@ -150,8 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				9F6F746B1FB2DBF9009A539D /* Resources */,
-				9F6F746A1FB2DB00009A539D /* Services */,
-				9F6F74691FB2DADB009A539D /* Utils */,
+				9F5908CC1FB2E0E600BA6456 /* Helpers */,
 				9F6F74681FB2DAD6009A539D /* ViewControllers */,
 				9F6F74671FB2DAD1009A539D /* Views */,
 				9F6F74661FB2DA72009A539D /* Models */,
