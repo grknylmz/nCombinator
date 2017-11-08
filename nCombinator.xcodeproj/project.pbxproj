@@ -22,6 +22,14 @@
 		9F6F746F1FB2DC8E009A539D /* Reddit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6F746E1FB2DC8E009A539D /* Reddit.swift */; };
 		9F6F74711FB2DCA9009A539D /* HackerNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6F74701FB2DCA9009A539D /* HackerNews.swift */; };
 		9F6F74731FB2DCE4009A539D /* ProductHunt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6F74721FB2DCE4009A539D /* ProductHunt.swift */; };
+		9F8B327A1FB3061900B6B83C /* ExampleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B32781FB3061900B6B83C /* ExampleTableViewCell.swift */; };
+		9F8B327B1FB3061900B6B83C /* ExampleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F8B32791FB3061900B6B83C /* ExampleTableViewCell.xib */; };
+		9F8B327E1FB3063500B6B83C /* Font in Resources */ = {isa = PBXBuildFile; fileRef = 9F8B327C1FB3063500B6B83C /* Font */; };
+		9F8B327F1FB3063500B6B83C /* UIFont+Zeplin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B327D1FB3063500B6B83C /* UIFont+Zeplin.swift */; };
+		9F8B32821FB307FF00B6B83C /* ControllersProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B32801FB307FF00B6B83C /* ControllersProvider.swift */; };
+		9F8B32831FB307FF00B6B83C /* TabSwitcherItemsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B32811FB307FF00B6B83C /* TabSwitcherItemsProvider.swift */; };
+		9F8B32851FB3080B00B6B83C /* StubContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B32841FB3080B00B6B83C /* StubContentViewController.swift */; };
+		9FF346851FB2E342000697B3 /* urls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF346841FB2E342000697B3 /* urls.swift */; };
 		D88B4C008001E96DAC8C987F /* Pods_nCombinatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F59443126A07297CCAD0EFFA /* Pods_nCombinatorTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +74,14 @@
 		9F6F746E1FB2DC8E009A539D /* Reddit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reddit.swift; sourceTree = "<group>"; };
 		9F6F74701FB2DCA9009A539D /* HackerNews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HackerNews.swift; sourceTree = "<group>"; };
 		9F6F74721FB2DCE4009A539D /* ProductHunt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductHunt.swift; sourceTree = "<group>"; };
+		9F8B32781FB3061900B6B83C /* ExampleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleTableViewCell.swift; sourceTree = "<group>"; };
+		9F8B32791FB3061900B6B83C /* ExampleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExampleTableViewCell.xib; sourceTree = "<group>"; };
+		9F8B327C1FB3063500B6B83C /* Font */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Font; sourceTree = "<group>"; };
+		9F8B327D1FB3063500B6B83C /* UIFont+Zeplin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Zeplin.swift"; sourceTree = "<group>"; };
+		9F8B32801FB307FF00B6B83C /* ControllersProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControllersProvider.swift; sourceTree = "<group>"; };
+		9F8B32811FB307FF00B6B83C /* TabSwitcherItemsProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabSwitcherItemsProvider.swift; sourceTree = "<group>"; };
+		9F8B32841FB3080B00B6B83C /* StubContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StubContentViewController.swift; sourceTree = "<group>"; };
+		9FF346841FB2E342000697B3 /* urls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = urls.swift; sourceTree = "<group>"; };
 		C1DAFF6C528A38284FAD1EFF /* Pods_nCombinator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nCombinator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8C500B00C19E2BD33CA49E0 /* Pods-nCombinatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nCombinatorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-nCombinatorTests/Pods-nCombinatorTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E7C3D9E79AD1D731C4359DA6 /* Pods_nCombinatorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nCombinatorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -199,6 +215,9 @@
 		9F6F74671FB2DAD1009A539D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9F8B32841FB3080B00B6B83C /* StubContentViewController.swift */,
+				9F8B32781FB3061900B6B83C /* ExampleTableViewCell.swift */,
+				9F8B32791FB3061900B6B83C /* ExampleTableViewCell.xib */,
 				9F6F74401FB2D892009A539D /* LaunchScreen.storyboard */,
 				9F6F74381FB2D892009A539D /* Main.storyboard */,
 			);
@@ -218,6 +237,8 @@
 		9F6F74691FB2DADB009A539D /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				9F8B32801FB307FF00B6B83C /* ControllersProvider.swift */,
+				9F8B32811FB307FF00B6B83C /* TabSwitcherItemsProvider.swift */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -232,9 +253,12 @@
 		9F6F746B1FB2DBF9009A539D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				9F8B327C1FB3063500B6B83C /* Font */,
+				9F8B327D1FB3063500B6B83C /* UIFont+Zeplin.swift */,
 				9F6F74431FB2D892009A539D /* Info.plist */,
 				9F6F743E1FB2D892009A539D /* Assets.xcassets */,
 				9F6F743B1FB2D892009A539D /* nCombinator.xcdatamodeld */,
+				9FF346841FB2E342000697B3 /* urls.swift */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -358,6 +382,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F8B327E1FB3063500B6B83C /* Font in Resources */,
+				9F8B327B1FB3061900B6B83C /* ExampleTableViewCell.xib in Resources */,
 				9F6F74421FB2D892009A539D /* LaunchScreen.storyboard in Resources */,
 				9F6F743F1FB2D892009A539D /* Assets.xcassets in Resources */,
 				9F6F743A1FB2D892009A539D /* Main.storyboard in Resources */,
@@ -523,13 +549,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FF346851FB2E342000697B3 /* urls.swift in Sources */,
 				9F6F74371FB2D892009A539D /* MainVC.swift in Sources */,
 				9F6F746F1FB2DC8E009A539D /* Reddit.swift in Sources */,
 				9F6F743D1FB2D892009A539D /* nCombinator.xcdatamodeld in Sources */,
+				9F8B32831FB307FF00B6B83C /* TabSwitcherItemsProvider.swift in Sources */,
+				9F8B327F1FB3063500B6B83C /* UIFont+Zeplin.swift in Sources */,
+				9F8B32851FB3080B00B6B83C /* StubContentViewController.swift in Sources */,
 				9F6F74731FB2DCE4009A539D /* ProductHunt.swift in Sources */,
 				9F5908CB1FB2DF7A00BA6456 /* FeedItem.swift in Sources */,
+				9F8B327A1FB3061900B6B83C /* ExampleTableViewCell.swift in Sources */,
 				9F6F746D1FB2DC4D009A539D /* SourceSelectionVC.swift in Sources */,
 				9F6F74711FB2DCA9009A539D /* HackerNews.swift in Sources */,
+				9F8B32821FB307FF00B6B83C /* ControllersProvider.swift in Sources */,
 				9F6F74351FB2D892009A539D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
