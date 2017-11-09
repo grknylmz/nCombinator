@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		2CE6BA5279F9022BA086BD4E /* Pods_nCombinatorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7C3D9E79AD1D731C4359DA6 /* Pods_nCombinatorUITests.framework */; };
+		4712A11E1FB484F300485340 /* GothamProBlack.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4712A11A1FB484F300485340 /* GothamProBlack.ttf */; };
+		4712A11F1FB484F300485340 /* GothamProBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4712A11B1FB484F300485340 /* GothamProBold.ttf */; };
+		4712A1201FB484F300485340 /* GothamProMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4712A11C1FB484F300485340 /* GothamProMedium.ttf */; };
+		4712A1211FB484F300485340 /* GothamProRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4712A11D1FB484F300485340 /* GothamProRegular.ttf */; };
 		8F0BDEE72C4F49C0EBF0A670 /* Pods_nCombinator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1DAFF6C528A38284FAD1EFF /* Pods_nCombinator.framework */; };
 		9F5908CB1FB2DF7A00BA6456 /* TabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5908CA1FB2DF7A00BA6456 /* TabItem.swift */; };
 		9F6F74351FB2D892009A539D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6F74341FB2D892009A539D /* AppDelegate.swift */; };
@@ -24,7 +28,6 @@
 		9F6F74731FB2DCE4009A539D /* ProductHunt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6F74721FB2DCE4009A539D /* ProductHunt.swift */; };
 		9F8B327A1FB3061900B6B83C /* ExampleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B32781FB3061900B6B83C /* ExampleTableViewCell.swift */; };
 		9F8B327B1FB3061900B6B83C /* ExampleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F8B32791FB3061900B6B83C /* ExampleTableViewCell.xib */; };
-		9F8B327E1FB3063500B6B83C /* Font in Resources */ = {isa = PBXBuildFile; fileRef = 9F8B327C1FB3063500B6B83C /* Font */; };
 		9F8B327F1FB3063500B6B83C /* UIFont+Zeplin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B327D1FB3063500B6B83C /* UIFont+Zeplin.swift */; };
 		9F8B32821FB307FF00B6B83C /* ControllersProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B32801FB307FF00B6B83C /* ControllersProvider.swift */; };
 		9F8B32831FB307FF00B6B83C /* TabSwitcherItemsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B32811FB307FF00B6B83C /* TabSwitcherItemsProvider.swift */; };
@@ -53,6 +56,10 @@
 /* Begin PBXFileReference section */
 		1B7F9C75B789658F3010CCAA /* Pods-nCombinatorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nCombinatorUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-nCombinatorUITests/Pods-nCombinatorUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		1C2DFA6E826689EB012965F3 /* Pods-nCombinatorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nCombinatorUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-nCombinatorUITests/Pods-nCombinatorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4712A11A1FB484F300485340 /* GothamProBlack.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamProBlack.ttf; sourceTree = "<group>"; };
+		4712A11B1FB484F300485340 /* GothamProBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamProBold.ttf; sourceTree = "<group>"; };
+		4712A11C1FB484F300485340 /* GothamProMedium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamProMedium.ttf; sourceTree = "<group>"; };
+		4712A11D1FB484F300485340 /* GothamProRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamProRegular.ttf; sourceTree = "<group>"; };
 		4ED41FE4838176F9508D2DDB /* Pods-nCombinatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nCombinatorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-nCombinatorTests/Pods-nCombinatorTests.release.xcconfig"; sourceTree = "<group>"; };
 		719C03DC5BBD5AC94E1F154B /* Pods-nCombinator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nCombinator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-nCombinator/Pods-nCombinator.debug.xcconfig"; sourceTree = "<group>"; };
 		9F5908CA1FB2DF7A00BA6456 /* TabItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabItem.swift; sourceTree = "<group>"; };
@@ -76,7 +83,6 @@
 		9F6F74721FB2DCE4009A539D /* ProductHunt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductHunt.swift; sourceTree = "<group>"; };
 		9F8B32781FB3061900B6B83C /* ExampleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleTableViewCell.swift; sourceTree = "<group>"; };
 		9F8B32791FB3061900B6B83C /* ExampleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExampleTableViewCell.xib; sourceTree = "<group>"; };
-		9F8B327C1FB3063500B6B83C /* Font */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Font; sourceTree = "<group>"; };
 		9F8B327D1FB3063500B6B83C /* UIFont+Zeplin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Zeplin.swift"; sourceTree = "<group>"; };
 		9F8B32801FB307FF00B6B83C /* ControllersProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControllersProvider.swift; sourceTree = "<group>"; };
 		9F8B32811FB307FF00B6B83C /* TabSwitcherItemsProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabSwitcherItemsProvider.swift; sourceTree = "<group>"; };
@@ -128,6 +134,17 @@
 				1C2DFA6E826689EB012965F3 /* Pods-nCombinatorUITests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		4712A1191FB484F300485340 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				4712A11A1FB484F300485340 /* GothamProBlack.ttf */,
+				4712A11B1FB484F300485340 /* GothamProBold.ttf */,
+				4712A11C1FB484F300485340 /* GothamProMedium.ttf */,
+				4712A11D1FB484F300485340 /* GothamProRegular.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 		8EF85EE8D98F37EC0135A27E /* Frameworks */ = {
@@ -253,7 +270,7 @@
 		9F6F746B1FB2DBF9009A539D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				9F8B327C1FB3063500B6B83C /* Font */,
+				4712A1191FB484F300485340 /* Font */,
 				9F8B327D1FB3063500B6B83C /* UIFont+Zeplin.swift */,
 				9F6F74431FB2D892009A539D /* Info.plist */,
 				9F6F743E1FB2D892009A539D /* Assets.xcassets */,
@@ -382,11 +399,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F8B327E1FB3063500B6B83C /* Font in Resources */,
 				9F8B327B1FB3061900B6B83C /* ExampleTableViewCell.xib in Resources */,
 				9F6F74421FB2D892009A539D /* LaunchScreen.storyboard in Resources */,
+				4712A1201FB484F300485340 /* GothamProMedium.ttf in Resources */,
+				4712A1211FB484F300485340 /* GothamProRegular.ttf in Resources */,
+				4712A11E1FB484F300485340 /* GothamProBlack.ttf in Resources */,
 				9F6F743F1FB2D892009A539D /* Assets.xcassets in Resources */,
 				9F6F743A1FB2D892009A539D /* Main.storyboard in Resources */,
+				4712A11F1FB484F300485340 /* GothamProBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

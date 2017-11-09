@@ -50,6 +50,7 @@ open class ColorMatchTabsViewController: UITabBarController {
     override open var title: String? {
         didSet {
             titleLabel.text = title
+
         }
     }
     

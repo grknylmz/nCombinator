@@ -24,7 +24,7 @@ class StubContentViewControllersProvider {
         let usersViewController = StubContentViewController()
         usersViewController.type = .users
         
-        return [productsViewController, venuesViewController, reviewsViewController, usersViewController,productsViewController, venuesViewController, reviewsViewController, usersViewController]
+        return [productsViewController, venuesViewController, reviewsViewController, usersViewController]
     }()
 
 }

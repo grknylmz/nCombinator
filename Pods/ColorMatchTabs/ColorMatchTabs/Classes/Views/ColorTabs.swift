@@ -28,7 +28,7 @@ open class ColorTabs: UIControl {
     open weak var dataSource: ColorTabsDataSource?
     
     /// Text color for titles.
-    open var titleTextColor: UIColor = .white
+    open var titleTextColor: UIColor = .black
     
     /// Font for titles.
     open var titleFont: UIFont = .systemFont(ofSize: 14)
