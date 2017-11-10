@@ -12,19 +12,26 @@ import ColorMatchTabs
 class StubContentViewControllersProvider {
     
     static let viewControllers: [UIViewController] = {
-        let productsViewController = StubContentViewController()
-        productsViewController.type = .products
+        let redditViewController = StubContentViewController()
+        redditViewController.type = .reddit
         
-        let venuesViewController = StubContentViewController()
-        venuesViewController.type = .venues
+        let hackerViewController = StubContentViewController()
+        hackerViewController.type = .hacker
         
-        let reviewsViewController = StubContentViewController()
-        reviewsViewController.type = .reviews
+        let productViewController = StubContentViewController()
+        productViewController.type = .product
         
-        let usersViewController = StubContentViewController()
-        usersViewController.type = .users
+        let gagsViewController = StubContentViewController()
+        gagsViewController.type = .gags
         
-        return [productsViewController, venuesViewController, reviewsViewController, usersViewController]
+        let slashViewController = StubContentViewController()
+        slashViewController.type = .slash
+        
+        let mashableViewController = StubContentViewController()
+        mashableViewController.type = .mashable
+        
+        
+        return [redditViewController, hackerViewController, productViewController, gagsViewController,slashViewController,mashableViewController]
     }()
 
 }

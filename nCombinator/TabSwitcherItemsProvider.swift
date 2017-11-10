@@ -16,27 +16,39 @@ class TabItemsProvider {
         return [
             TabItem(
                 title: "Reddit",
-                tintColor: UIColor(red: 0.51, green: 0.72, blue: 0.25, alpha: 1.00),
-                normalImage: UIImage(named: "reddit")!,
-                highlightedImage: UIImage(named: "products_highlighted")!
+                tintColor: UIColor(red: 0.96, green: 0.61, blue: 0.58, alpha: 1.00),
+                normalImage: UIImage(named: "redt")!,
+                highlightedImage: UIImage(named: "redt")!
             ),
             TabItem(
                 title: "Hacker News",
-                tintColor: UIColor(red: 0.15, green: 0.67, blue: 0.99, alpha: 1.00),
-                normalImage: UIImage(named: "venues_normal")!,
-                highlightedImage: UIImage(named: "venues_highlighted")!
+                tintColor: UIColor(red: 0.96, green: 0.67, blue: 0.58, alpha: 1.00),
+                normalImage: UIImage(named: "hacker")!,
+                highlightedImage: UIImage(named: "hacker")!
             ),
             TabItem(
                 title: "Product Hunt",
-                tintColor: UIColor(red: 1.00, green: 0.61, blue: 0.16, alpha: 1.00),
-                normalImage: UIImage(named: "reviews_normal")!,
-                highlightedImage: UIImage(named: "reviews_highlighted")!
+                tintColor: UIColor(red: 0.96, green: 0.61, blue: 0.58, alpha: 1.00),
+                normalImage: UIImage(named: "product")!,
+                highlightedImage: UIImage(named: "product")!
             ),
             TabItem(
-                title: "9GaG",
+                title: "9gag",
                 tintColor: UIColor(red: 0.96, green: 0.61, blue: 0.58, alpha: 1.00),
-                normalImage: UIImage(named: "users_normal")!,
-                highlightedImage: UIImage(named: "users_highlighted")!
+                normalImage: UIImage(named: "9gag")!,
+                highlightedImage: UIImage(named: "9gag")!
+            ),
+            TabItem(
+                title: "Slashdot",
+                tintColor: UIColor(red: 0.96, green: 0.61, blue: 0.58, alpha: 1.00),
+                normalImage: UIImage(named: "slashdot")!,
+                highlightedImage: UIImage(named: "slashdot")!
+            ),
+            TabItem(
+                title: "Mashable",
+                tintColor: UIColor(red: 0.96, green: 0.61, blue: 0.58, alpha: 1.00),
+                normalImage: UIImage(named: "mashable")!,
+                highlightedImage: UIImage(named: "mashable")!
             )
         ]
     }()

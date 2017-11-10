@@ -11,7 +11,7 @@ import UIKit
 class StubContentViewController: UITableViewController {
     
     enum `Type` {
-        case products, venues, reviews, users
+        case reddit, hacker, product, gags , slash, mashable
     }
     
     var type: Type!
@@ -32,9 +32,9 @@ class StubContentViewController: UITableViewController {
     }
     
     fileprivate func setupDataSource() {
-        if type == .products || type == .reviews {
+        if type == .reddit || type == .hacker || type == .slash {
             self.objects = [UIImage(named: "product_card1")!, UIImage(named: "product_card2")!]
-        } else if type == .venues || type == .users {
+        } else if type == .product || type == .gags || type == .mashable{
             self.objects = [UIImage(named: "venue_card1")!, UIImage(named: "venue_card2")!]
         }
     }
